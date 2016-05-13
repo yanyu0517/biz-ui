@@ -2270,39 +2270,39 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     white-space: nowrap;
     font-weight: normal
 }
-.biz-table th[sortable] {
+.biz-table div.sortable {
     cursor: pointer;
     position: relative;
 }
-.biz-table th[sortable]:before {
+.biz-table div.sortable:before {
     content: '';
     width: 0;
     height: 0;
     position: absolute;
-    top: 8px;
+    top: 5px;
     right: 12px;
     border-width: 0 5px 5px;
     border-style: solid;
     border-color: transparent transparent #fff;
     
 }
-.biz-table th[sortable]:after {
+.biz-table div.sortable:after {
     content: '';
     width: 0;
     height: 0;
     position: absolute;
-    bottom: 8px;
+    bottom: 1px;
     right: 12px;
     border-width: 5px 5px 0;
     border-style: solid;
     border-color: #fff transparent transparent;
     
 }
-.biz-table th[asc]:before {
+.biz-table div[asc]:before {
     border-color: transparent transparent #13BD31;
     
 }
-.biz-table th[des]:after {
+.biz-table div[des]:after {
     border-color: #13BD31 transparent transparent;
     
 }
@@ -2678,7 +2678,7 @@ table.rc-table-resizing .biz-label {
 }
 .biz-table.biz-rowspan tr.selected,
 .biz-table.biz-rowspan tr:hover {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 .biz-table.biz-rowspan tr.sum,
 .biz-table.biz-rowspan tr.sum:hover {
